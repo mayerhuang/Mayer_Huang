@@ -83,7 +83,7 @@ def send_command(can_id, cmd_mode, index, value):
         print(f"An error occurred: {e}")
     return hex_string
 
-
+#测试代码
 print('这个不知道啥意思，有使能的作用')
 ser.write(bytes.fromhex('41 54 90 07 eb fc 08 05 70 00 00 01 00 00 00 0d 0a'))
 response = ser.readline()
